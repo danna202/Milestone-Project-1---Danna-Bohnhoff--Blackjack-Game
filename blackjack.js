@@ -36,7 +36,7 @@ function shuffleDeck() {
         deck[i] = deck[j];
         deck[j] = temp;
     }
-    console.log(deck);
+    // console.log(deck);
 }
 
 function startGame() {
@@ -54,7 +54,7 @@ function startGame() {
         dealerAceCount += checkAce(card);
         document.getElementById("dealer-cards").append(cardImg);
     }
-    console.log(dealerSum);
+    // console.log(dealerSum);
 
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img");
@@ -65,7 +65,7 @@ function startGame() {
         document.getElementById("your-cards").append(cardImg);
     }
 
-    console.log(yourSum);
+    // console.log(yourSum);
     document.getElementById("hit").addEventListener("click", hit);
     document.getElementById("stay").addEventListener("click", stay);
 
@@ -146,3 +146,17 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum;
 }
+
+function startblackjack()
+        {
+            document.getElementById('deal').value = 'Restart';
+            document.getElementById("status").style.display="none";
+            // deal 2 cards to every player object
+            currentPlayer = 0;
+            createDeck();
+            shuffle();
+            createPlayers(2);
+            createPlayersUI();
+            dealHands();
+            document.getElementById('player_' + currentPlayer).classList.add('active');
+        }

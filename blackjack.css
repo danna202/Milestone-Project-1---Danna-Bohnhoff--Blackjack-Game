@@ -3,30 +3,47 @@ body {
     text-align: center;
     }
 H1 {
-    font-size: 60px;
+    font-size: 55px;
     color:rgb(206, 15, 15)
 }
  h2 {
-    font-size: 40px;
+    font-size: 50px;
  }
 
+ 
 #dealer-cards img {
-    height: 200px;
-    width: 170px;
-    margin: 2px;
+    height: 190px;
+    width: 160px;
+    margin: 1px;
 }
 
 #your-cards img {
-    height: 200px;
-    width: 170px;
-    margin: 2px;
+    height: 190px;
+    width: 160px;
+    margin: 1px;
 }
-
-#hit {
+#deal {
     width: 150px;
     height: 75px;
     font-size: 30px;
-    border: solid red;
+    font-weight: bold;
+    border: solid rgb(211, 11, 11);
+    background-color: yellow;
+    border-radius: 12px
+    
+}
+#deal:hover{
+    transition-duration: 1s;
+    background-color: white;
+    color: rgb(8, 100, 8)
+}
+#hit {
+    width: 150px;
+
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    border: solid rgb(211, 11, 11);
     background-color: yellow;
     border-radius: 12px
     
@@ -41,7 +58,8 @@ H1 {
     width: 150px;
     height: 75px;
     font-size: 30px;
-    border:solid red ;
+    font-weight: bold;
+    border: solid rgb(211, 11, 11);
     background-color: yellow;
     border-radius: 12px
 
@@ -51,15 +69,12 @@ H1 {
     background-color: white;
     color: rgb(73, 170, 73)
 }
-p {
-    font-size: 40px;
-    color: yellow
- }
+
+
 
 body {
 	background-color: rgb(73, 170, 73); 
-	/*background-image: url(http://molotilo.com/wp-content/uploads/2016/07/green-carpet.jpg);*/
-	/*background-size: cover;*/
+	
 	text-align: center
     
 
