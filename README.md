@@ -23,4 +23,4 @@ The Objective of Blackjack......Beat The Dealer.
     Click "Stand" to keep your score.
     Click your browser refresh button to start another game.
     
-![image](https://user-images.githubusercontent.com/105758399/201194968-cb30663f-236f-4345-87e6-1f0b98ce0b7d.png)
+![image](https://user-images.githubusercontent.com/105758399/201201383-daa7f173-c056-406b-8ac7-a347c5e2a8e3.png)

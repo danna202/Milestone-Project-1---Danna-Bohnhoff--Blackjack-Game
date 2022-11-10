@@ -4,7 +4,7 @@
     } 
 H1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-size: 70px;
+    font-size: 40px;
     color: rgb(206, 15, 15)
 }
  h2 {
@@ -14,7 +14,7 @@ H1 {
  }
 p {
     font-size: 60px;
-    color:rgb(206, 15, 15)
+    color: yellow
 }
  
 #dealer-cards img {
@@ -29,23 +29,23 @@ p {
     margin: 1px;
 }
 #deal {
-    width: 170px;
-    height: 75px;
-    font-size: 30px;
+    width: 250px;
+    height: 80px;
+    font-size: 25px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
-    background-color: yellow;
+    background-color: white;
     border-radius: 15px
     
 }
 #deal:hover{
     transition-duration: 1s;
-    background-color: white;
+    background-color: yellow;
     color: rgb(8, 100, 8)
 }
 #hit {
     width: 150px;
-    height: 75px;
+    height: 50px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
@@ -61,7 +61,7 @@ p {
 }
 #stay {
     width: 150px;
-    height: 75px;
+    height: 50px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
