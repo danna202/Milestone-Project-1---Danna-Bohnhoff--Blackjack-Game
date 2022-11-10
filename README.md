@@ -18,6 +18,9 @@ The Objective of Blackjack......Beat The Dealer.
 
   Blackjack is played with a conventional deck of 52 playing cards and suits don’t matter.
 
-In this tutorial, you will learn how to make the card game, black jack! You will learn how to create a deck, shuffle it, and deal cards to the dealer and the player. You will also learn to hit (draw cards) and stay (submit your hand) and compare the results to see who wins the round.
-
+* How to Play?
+    Click "Hit" to add a card.
+    Click "Stand" to keep your score.
+    Click your browser refresh button to start another game.
+    
 ![image](https://user-images.githubusercontent.com/105758399/201194968-cb30663f-236f-4345-87e6-1f0b98ce0b7d.png)
