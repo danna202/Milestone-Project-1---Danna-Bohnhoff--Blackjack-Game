@@ -1,5 +1,5 @@
 
-The Objective of Blackjack......Beat The Dealer. 
+The Objective of Blackjack......Beat The Dealer!
 
 *How do you beat the dealer?
 
