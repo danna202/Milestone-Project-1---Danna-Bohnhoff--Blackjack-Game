@@ -4,13 +4,13 @@
     } 
 H1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(206, 15, 15)
 }
  h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 p {
     font-size: 60px;
@@ -18,19 +18,19 @@ p {
 }
  
 #dealer-cards img {
-    height: 170px;
-    width: 140px;
-    margin: 1px;
+    height: 150px;
+    width: 130px;
+    margin: 5px;
 }
 
 #your-cards img {
-    height: 170px;
-    width: 140px;
-    margin: 1px;
+    height: 150px;
+    width: 130px;
+    margin: 5px;
 }
 #deal {
-    width: 250px;
-    height: 80px;
+    width: 300px;
+    height: 60px;
     font-size: 25px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
@@ -44,8 +44,8 @@ p {
     color: rgb(8, 100, 8)
 }
 #hit {
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
@@ -60,13 +60,13 @@ p {
     
 }
 #stay {
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
     background-color: yellow;
-    border-radius: 12px
+    border-radius: 15px
 
 }
 #stay:hover{
@@ -86,8 +86,8 @@ body {
 	
     
 }
-canvas {
+/*canvas {
 	background-image: url(assets/PNG/background.png);
 	background-size: cover;
 	border:5px solid rgb(223, 226, 45);
-}
+}*/
