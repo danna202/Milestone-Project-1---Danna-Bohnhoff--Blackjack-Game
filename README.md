@@ -19,6 +19,7 @@ The Objective of Blackjack......Beat The Dealer.
   Blackjack is played with a conventional deck of 52 playing cards and suits don’t matter.
 
 *How to Play?
+
   Click "Hit" to add a card.
   Click "Stand" to keep your score.
   Click your browser refresh button to start another game.
