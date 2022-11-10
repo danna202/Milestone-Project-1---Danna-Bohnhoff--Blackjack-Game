@@ -29,13 +29,13 @@ p {
     margin: 1px;
 }
 #deal {
-    width: 150px;
+    width: 170px;
     height: 75px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
     background-color: yellow;
-    border-radius: 12px
+    border-radius: 15px
     
 }
 #deal:hover{
@@ -45,13 +45,12 @@ p {
 }
 #hit {
     width: 150px;
-
     height: 75px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
     background-color: yellow;
-    border-radius: 12px
+    border-radius: 15px
     
 }
 #hit:hover{
