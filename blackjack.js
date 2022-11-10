@@ -14,6 +14,7 @@ window.onload = function() {
     buildDeck();
     shuffleDeck();
     startGame();
+    
 }
 
 function buildDeck() {
@@ -68,7 +69,7 @@ function startGame() {
     // console.log(yourSum);
     document.getElementById("hit").addEventListener("click", hit);
     document.getElementById("stay").addEventListener("click", stay);
-
+    // document.getElementById("startGame").addEventListener("click", deal);
 }
 
 function hit() {
@@ -147,16 +148,3 @@ function reduceAce(playerSum, playerAceCount) {
     return playerSum;
 }
 
-function startblackjack()
-        {
-            document.getElementById('deal').value = 'Restart';
-            document.getElementById("status").style.display="none";
-            // deal 2 cards to every player object
-            currentPlayer = 0;
-            createDeck();
-            shuffle();
-            createPlayers(2);
-            createPlayersUI();
-            dealHands();
-            document.getElementById('player_' + currentPlayer).classList.add('active');
-        }
