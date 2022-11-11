@@ -41,7 +41,7 @@ p {
 #deal:hover{
     transition-duration: 1s;
     background-color: yellow;
-    color: rgb(8, 100, 8)
+    color: rgb(24, 202, 24)
 }
 #hit {
     width: 200px;
@@ -56,7 +56,7 @@ p {
 #hit:hover{
     transition-duration: 1s;
     background-color: white;
-    color: rgb(73, 170, 73)
+    color: rgb(24, 202, 24)
     
 }
 #stay {
@@ -72,13 +72,14 @@ p {
 #stay:hover{
     transition-duration: 1s;
     background-color: white;
-    color: rgb(73, 170, 73)
+    color: rgb(24, 202, 24)
 }
 
 
 
 body {
-	background-color: rgb(73, 170, 73); 
+	background-color: rgb(101, 211, 101);
+    text-align: center;; 
 	
 	text-align: center
     
