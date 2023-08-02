@@ -1,6 +1,11 @@
 
 The Objective of Blackjack......Beat The Dealer!
+ 
+ Ace value can be 1 or 11.
+ 2-9 cards are face value
+ 10-Jack-Queen-King values are 10
 
+ 
 *How do you beat the dealer?
 
   By drawing a hand value that is higher than the dealer’s hand value.
@@ -22,7 +27,7 @@ The Objective of Blackjack......Beat The Dealer!
 
   Click "Hit" to add a card.
   Click "Stand" to keep your score.
-  Click your browser refresh button to start another game.
-    
+  <!-- Click your browser refresh button to start another game.
+     -->
  
 ![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png)

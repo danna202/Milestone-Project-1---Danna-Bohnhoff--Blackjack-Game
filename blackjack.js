@@ -69,7 +69,7 @@ function startGame() {
     // console.log(yourSum);
     document.getElementById("hit").addEventListener("click", hit);
     document.getElementById("stay").addEventListener("click", stay);
-    // document.getElementById("startGame").addEventListener("click", deal);
+    document.getElementById("deal").addEventListener("click", deal);
 }
 
 function hit() {

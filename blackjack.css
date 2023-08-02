@@ -1,14 +1,14 @@
  body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     } 
 H1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     color: rgb(206, 15, 15)
 }
  h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
 }
@@ -40,7 +40,7 @@ p {
 }
 #deal:hover{
     transition-duration: 1s;
-    background-color: yellow;
+    background-color: rgb(255, 8, 0);
     color: rgb(24, 202, 24)
 }
 #hit {
@@ -87,8 +87,8 @@ body {
 	
     
 }
-/*canvas {
+canvas {
 	background-image: url(assets/PNG/background.png);
 	background-size: cover;
 	border:5px solid rgb(223, 226, 45);
-}*/
+}
