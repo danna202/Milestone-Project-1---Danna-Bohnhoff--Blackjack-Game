@@ -8,7 +8,7 @@ var yourAceCount = 0;
 var hidden;
 var deck;
 
-var canHit = true; //allows the player (you) to draw while yourSum <= 21
+var canHit = true; 
 
 window.onload = function() {
     buildDeck();
@@ -24,10 +24,10 @@ function buildDeck() {
 
     for (let i = 0; i < types.length; i++) {
         for (let j = 0; j < values.length; j++) {
-            deck.push(values[j] + "-" + types[i]); //A-C -> K-C, A-D -> K-D
+            deck.push(values[j] + "-" + types[i]); 
         }
     }
-    // console.log(deck);
+   
 }
 
 function shuffleDeck() {
@@ -37,17 +37,16 @@ function shuffleDeck() {
         deck[i] = deck[j];
         deck[j] = temp;
     }
-    // console.log(deck);
+    
 }
 
 function startGame() {
     hidden = deck.pop();
     dealerSum += getValue(hidden);
     dealerAceCount += checkAce(hidden);
-    // console.log(hidden);
-    // console.log(dealerSum);
+    
     while (dealerSum < 17) {
-        //<img src="./cards/4-C.png">
+       
         let cardImg = document.createElement("img");
         let card = deck.pop();
         cardImg.src = "./cards/" + card + ".png";
@@ -55,8 +54,7 @@ function startGame() {
         dealerAceCount += checkAce(card);
         document.getElementById("dealer-cards").append(cardImg);
     }
-    // console.log(dealerSum);
-
+    
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img");
         let card = deck.pop();
@@ -66,7 +64,7 @@ function startGame() {
         document.getElementById("your-cards").append(cardImg);
     }
 
-    // console.log(yourSum);
+   
     document.getElementById("hit").addEventListener("click", hit);
     document.getElementById("stay").addEventListener("click", stay);
     document.getElementById("deal").addEventListener("click", deal);
@@ -104,7 +102,21 @@ function stay() {
     else if (dealerSum > 21) {
         message = "You win!";
     }
-    //both you and dealer <= 21
+    else if (yourSum == 21) {
+        message = "You win!";
+    }
+    else if (dealerSum == 21) {
+        message = "You Lose!";
+    }
+    else if (yourSum == dealerSum) {
+        message = "Tie!";
+    }
+    else if (yourSum > dealerSum) {
+        message = "You Win!";
+    }
+    else if (yourSum < dealerSum) {
+        message = "You Lose!";
+    }
     else if (yourSum == dealerSum) {
         message = "Tie!";
     }
@@ -121,10 +133,10 @@ function stay() {
 }
 
 function getValue(card) {
-    let data = card.split("-"); // "4-C" -> ["4", "C"]
+    let data = card.split("-"); 
     let value = data[0];
 
-    if (isNaN(value)) { //A J Q K
+    if (isNaN(value)) { 
         if (value == "A") {
             return 11;
         }
@@ -147,4 +159,7 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum;
 }
-
+// reset the game
+function deal() {
+    location.reload();
+}   
