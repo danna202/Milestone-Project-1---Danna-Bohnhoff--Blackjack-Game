@@ -74,7 +74,22 @@ p {
     background-color: white;
     color: rgb(24, 202, 24)
 }
+#split {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: solid rgb(211, 11, 11);
+    background-color: yellow;
+    border-radius: 15px
 
+}
+
+#split:hover{
+    transition-duration: 1s;
+    background-color: white;
+    color: rgb(42, 24, 202)
+}
 
 
 body {
