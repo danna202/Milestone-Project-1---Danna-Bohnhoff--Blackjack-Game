@@ -33,15 +33,15 @@ p {
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    border: solid rgb(211, 11, 11);
-    background-color: white;
+    border: solid rgb(8, 48, 14);
+    background-color: rgba(18, 53, 12, 0.411);
     border-radius: 15px
     
 }
 #deal:hover{
     transition-duration: 1s;
-    background-color: rgb(8, 82, 179);
-    color: white
+    background-color: rgba(170, 229, 160, 0.822);
+    color: black;
 }
 #hit {
     width: 200px;
@@ -93,7 +93,7 @@ p {
 
 
 body {
-	background-color: rgb(101, 211, 101);
+	background-color: rgba(19, 116, 43, 0.555);
     text-align: center;; 
 	
 	text-align: center
@@ -105,5 +105,5 @@ body {
 canvas {
 	background-image: url(assets/PNG/background.png);
 	background-size: cover;
-	border:5px solid rgb(223, 226, 45);
+	border:5px solid rgba(223, 226, 45, 0.726);
 }
