@@ -160,7 +160,8 @@ function reduceAce(playerSum, playerAceCount) {
     return playerSum;
 }
 
-// // Function to check if a split is possible for a given hand
+
+
 // function canSplit(hand) {
 //     return hand.length === 2 && hand[0].split(" ")[0] === hand[1].split(" ")[0];
 //   }

@@ -1,33 +1,38 @@
 
 The Objective of Blackjack......Beat The Dealer!
  
- Ace value can be 1 or 11.
- 2-9 cards are face value
- 10-Jack-Queen-King values are 10
+*Card Values: 
+  In Blackjack, numbered cards (2 to 10) are worth their face value, face cards (Jack, Queen, King) are worth 10, and Aces can be worth 1 or 11, whichever is more advantageous for the hand.
 
  
 *How do you beat the dealer?
+   Get a hand value as close to 21 as possible without exceeding it, while also having a higher hand value than the dealer.
 
-  By drawing a hand value that is higher than the dealer’s hand value.
-  By the dealer drawing a hand value that goes over 21.
-  By drawing a hand value of 21 on your first two cards, when the dealer does not.
+*Game Setup: The dealer will shuffle a standard deck of 52 cards. Each player, including the dealer, will receive two cards.
 
-*How do you lose to the dealer? 
+*Player's Turn: 
+  Players take turns to make decisions about their hand.  The possible actions are:
 
-  Your hand value exceeds 21.
-  The dealers hand has a greater value than yours at the end of the round.
+  Hit: Receive an additional card to try and improve the hand value.
+  Stand: Keep the current hand value and end the turn.
 
-  If you draw the same value as the dealer, it is a tie.
+*Dealer's Turn: 
+  After all players have finished their turns, the dealer reveals their face-down card. The dealer must follow a strict rule: they must hit until they have a hand value of 17 or more. If the dealer's hand exceeds 21, all remaining players win.
 
-*How Do You Find a Hand’s Total Value?
+*Winning Conditions: 
+  At the end of the round, the player wins if:
 
-  Blackjack is played with a conventional deck of 52 playing cards and suits don’t matter.
+  Their hand value is closer to 21 than the dealer's hand value.
+  The dealer busts (exceeds 21), and the player does not.
 
-*How to Play?
+*Losing Conditions: The player loses if:
 
-  Click "Hit" to add a card.
-  Click "Stand" to keep your score.
-  <!-- Click your browser refresh button to start another game.
-     -->
+  Their hand value exceeds 21 (bust).
+  The dealer's hand value is closer to 21.
+  The dealer and player have the same hand value (push/tie).
+  Blackjack: If a player's first two cards are an Ace and a 10-value card (10, Jack, Queen, or King), they have a "Blackjack." A Blackjack automatically wins, except against the dealer's Blackjack, which results in a push.
+
+*Next Round: 
+  After determining the winners and losers, a new round begins with players placing their bets again.
  
 ![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png)
