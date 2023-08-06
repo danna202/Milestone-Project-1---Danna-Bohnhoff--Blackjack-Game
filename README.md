@@ -35,4 +35,6 @@ The Objective of Blackjack......Beat The Dealer!
 *Next Round: 
   After determining the winners and losers, a new round begins with players placing their bets again.
  
-![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png)
+<!-- ![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png) -->
+
+![blackjack game ](image.png)
