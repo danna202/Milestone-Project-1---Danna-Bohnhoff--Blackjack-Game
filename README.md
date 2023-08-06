@@ -1,4 +1,4 @@
-
+![blackjack game ](image.png)
 The Objective of Blackjack......Beat The Dealer!
  
 *How do you beat the dealer?
@@ -25,4 +25,4 @@ Next Round: After the outcome is determined, a new round begins. You can place y
  
 <!-- ![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png) -->
 
-![blackjack game ](image.png)
+<!-- ![blackjack game ](image.png) -->
