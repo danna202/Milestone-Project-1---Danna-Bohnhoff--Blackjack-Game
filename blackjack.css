@@ -40,12 +40,12 @@ p {
 }
 #deal:hover{
     transition-duration: 1s;
-    background-color: rgb(255, 8, 0);
-    color: rgb(24, 202, 24)
+    background-color: rgb(8, 82, 179);
+    color: white
 }
 #hit {
     width: 200px;
-    height: 50px;
+    height: 40px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
@@ -61,7 +61,7 @@ p {
 }
 #stay {
     width: 200px;
-    height: 50px;
+    height: 40px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
@@ -72,24 +72,24 @@ p {
 #stay:hover{
     transition-duration: 1s;
     background-color: white;
-    color: rgb(24, 202, 24)
+    color: rgb(202, 24, 24)
 }
-#split {
+/* #split {
     width: 200px;
-    height: 50px;
+    height: 40px;
     font-size: 30px;
     font-weight: bold;
     border: solid rgb(211, 11, 11);
     background-color: yellow;
     border-radius: 15px
 
-}
+} */
 
-#split:hover{
+/* #split:hover{
     transition-duration: 1s;
     background-color: white;
     color: rgb(42, 24, 202)
-}
+} */
 
 
 body {

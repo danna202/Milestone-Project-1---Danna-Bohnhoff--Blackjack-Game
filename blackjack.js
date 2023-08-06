@@ -160,43 +160,43 @@ function reduceAce(playerSum, playerAceCount) {
     return playerSum;
 }
 
-// Function to check if a split is possible for a given hand
-function canSplit(hand) {
-    return hand.length === 2 && hand[0].split(" ")[0] === hand[1].split(" ")[0];
-  }
+// // Function to check if a split is possible for a given hand
+// function canSplit(hand) {
+//     return hand.length === 2 && hand[0].split(" ")[0] === hand[1].split(" ")[0];
+//   }
   
-  // Function to perform the split
-  function splitHand(playerHand, deck) {
-    if (canSplit(playerHand)) {
-      const cardToMove = playerHand.pop();
-      const newHand = [cardToMove, dealCard(deck)];
-      return [playerHand, newHand];
-    } else {
-      console.log("Split not possible for the current hand.");
-      return [playerHand];
-    }
-  }
+//   // Function to perform the split
+//   function splitHand(playerHand, deck) {
+//     if (canSplit(playerHand)) {
+//       const cardToMove = playerHand.pop();
+//       const newHand = [cardToMove, dealCard(deck)];
+//       return [playerHand, newHand];
+//     } else {
+//       console.log("Split not possible for the current hand.");
+//       return [playerHand];
+//     }
+//   }
   
-  // Example usage
-  function playBlackjack() {
-    let deck = createDeck();
-    shuffle(deck);
+//   // Example usage
+//   function playBlackjack() {
+//     let deck = createDeck();
+//     shuffle(deck);
   
-    // Deal initial hands
-    let playerHand = [dealCard(deck), dealCard(deck)];
+//     // Deal initial hands
+//     let playerHand = [dealCard(deck), dealCard(deck)];
   
-    // Check if the player can split
-    if (canSplit(playerHand)) {
-      console.log("You can split your hand.");
-      const [hand1, hand2] = splitHand(playerHand, deck);
-      console.log("Hand 1:", hand1);
-      console.log("Hand 2:", hand2);
-    } else {
-      console.log("You cannot split your hand.");
-      console.log("Your hand:", playerHand);
-    }
-  }
-// reset the game
+//     // Check if the player can split
+//     if (canSplit(playerHand)) {
+//       console.log("You can split your hand.");
+//       const [hand1, hand2] = splitHand(playerHand, deck);
+//       console.log("Hand 1:", hand1);
+//       console.log("Hand 2:", hand2);
+//     } else {
+//       console.log("You cannot split your hand.");
+//       console.log("Your hand:", playerHand);
+//     }
+//   }
+  
 function deal() {
     location.reload();
 }   
