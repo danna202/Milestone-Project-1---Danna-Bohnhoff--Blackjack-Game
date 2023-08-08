@@ -108,11 +108,3 @@ canvas {
 	border:5px solid rgba(223, 226, 45, 0.726);
 }
 
-@media screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens here */
-    body {
-        font-size: 14px;
-    }
-
-    /* Adjust card images, buttons, or other elements as needed */
-}
