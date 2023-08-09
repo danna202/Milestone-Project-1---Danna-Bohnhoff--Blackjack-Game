@@ -1,6 +1,13 @@
-![blackjack game ](image.png)
-The Objective of Blackjack......Beat The Dealer!
+ BLACKJACK
+
+ This game is deployed at:  https://danna202.github.io/Milestone-Project-1_Deployed_Danna-Bohnhoff--Blackjack-Game/
  
+ 
+![blackjack game ](image.png)
+
+The object of the game Blackjack,is to get as close to 21
+as possible without going over.
+
 *How do you beat the dealer?
    Get a hand value as close to 21 as possible without exceeding it, while also having a higher hand value than the dealer.
 
@@ -24,9 +31,8 @@ Blackjack: If your first two cards are an Ace and a 10-value card (10, Jack, Que
 
 *Next Round: After the outcome is determined, a new round begins. You can place your bet again and continue playing.
  
-<!-- ![image](https://user-images.githubusercontent.com/105758399/201232618-d019a486-c306-4ab5-96b9-1fb597f6a54f.png) -->
 
-<!-- ![blackjack game ](image.png) -->
-~Image is screenshot of actual game on my computer
+
+~Image is screenshot of actual game on my website
 
 ~Credit to ChatGPT for solving problem with deal button refreshing
