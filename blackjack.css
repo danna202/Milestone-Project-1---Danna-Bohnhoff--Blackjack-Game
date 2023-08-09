@@ -1,4 +1,4 @@
- body {
+  body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     } 
@@ -30,7 +30,7 @@ p {
 }
 #deal {
     width: 200px;
-    height: 50px;
+    height: 40px;
     font-size: 25px;
     font-weight: bold;
     border: solid rgb(8, 48, 14);
@@ -44,7 +44,7 @@ p {
     color: rgba(23, 24, 22, 0.39);
 }
 #hit {
-    width: 200px;
+    width: 175px;
     height: 40px;
     font-size: 30px;
     font-weight: bold;
@@ -60,7 +60,7 @@ p {
     
 }
 #stay {
-    width: 200px;
+    width: 175px;
     height: 40px;
     font-size: 30px;
     font-weight: bold;
@@ -107,4 +107,6 @@ canvas {
 	background-size: cover;
 	border:5px solid rgba(223, 226, 45, 0.726);
 }
+
+
 
