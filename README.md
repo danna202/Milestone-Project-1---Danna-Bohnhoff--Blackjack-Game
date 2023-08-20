@@ -5,7 +5,7 @@
  
 ![blackjack game ](image.png)
 
-The object of the game Blackjack,is to get as close to 21
+The object of the game Blackjack is to get as close to 21
 as possible without going over.
 
 *How do you beat the dealer?
